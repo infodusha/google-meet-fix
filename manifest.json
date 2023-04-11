@@ -1,0 +1,16 @@
+{
+  "name": "Google Meet App Fix",
+  "description": "Fix for multi-user google meet app",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://meet.google.com/landing?authuser=*"
+      ]
+    }
+  ]
+}
